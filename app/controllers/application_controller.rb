@@ -4,11 +4,11 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   protected
-  def authenticate_user!
-    if user_signed_in?
-      super
-    else
-      redirect_to "/users/sign_in", :notice => 'signed out successfully'
-    end
-  end
+  # def authenticate_user!
+  #   if user_signed_in?
+  #     super
+  #   else
+  #     redirect_to "/users/sign_in", :notice => 'signed out successfully'
+  #   end
+  # end
 end
