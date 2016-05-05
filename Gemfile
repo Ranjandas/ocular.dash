@@ -32,6 +32,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 #rest client
 gem 'rest-client'
+gem 'net-ldap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
